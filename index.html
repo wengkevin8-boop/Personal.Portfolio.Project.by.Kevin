@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <header class="header" id="top">
+            <a href="#home" class="logo">
+                Kevin <span class="logo-accent">Weng</span>
+            </a>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+            <nav>
+            <ul class="navbar" id="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contactme">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <button id="darkModeBtn">
+            <div class="bx bx-sun"></div>
+            <span>Light Mode</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>
+                    Hi, My <span class="accent">name is Kevin Weng</span>
+                </h1>
+
+                <h3>
+                    I'm a <span class="accent">Computer Science Student</span>
+                </h3>
+
+                <h3>
+                    I'm here to learn about how computer science works, like programming, design, and interaction. 
+                    I will provide some resources for you.
+                </h3>
+
+                <img src="kevinface.jpg" alt="" width="200">
+
+                <div class="home-buttons">
+                    <a href="#contactme" class="gradient-btn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section" id="aboutme">
+            <h2 class="section-title">About <span class="accent">Me</span></h2>
+            <div class="section-content">
+                <h3>
+                    During my time in Queens College, stationed in Flushing, New York. I was very interest about 
+                    video game development, problem-solving, and C++ interaction using efficient solutions that 
+                    helped to create the concept of design. I do have an experience with C++, video game 
+                    blending, Visual Studio Code, and Java. My only project was considred Tower of Hanoi program 
+                    which helped me understand the concept of design and programming.
+                </h3>
+
+                <h3>
+                    Outside of this, I really enjoyed traveling across the globe, like to the USA, Mexico, Canada, 
+                    and Puerto Rico. I was very interested in the journey because I was excited to see some amazing 
+                    places, like San Juan. I also played video games for a long time before I developed an interest 
+                    in video game design and development for its environment and doing exercise.
+                </h3>
+
+                <h3>
+                    I hope that guidance will show me the way to do my best for all.
+                </h3>
+
+                <img src="sanjuan.jpg" alt="San Juan" width="200">
+                <img src="queenscollege.jpg" alt="Queens College" width="270">
+            </div>
+        </section>
+
+        <section class="section" id="experience">
+            <h2 class="section-title"><span class="accent">Experience</span></h2>
+            <div class="section-content">
+                <h3>
+                    I had such an experience with the projects that gave me interested was the problem-solving and 
+                    coding design process because I was able to interact with the process that can be useful to make 
+                    sense. I do have student experience with the C++ language, Java, and code design process which make 
+                    more progress to do some problems and coding during my time in college.
+                </h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="bx bx-code-alt"></div>
+                    <h4>C++</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="bx bx-code-block"></div>
+                    <h4>Java</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="bx bx-laptop"></div>
+                    <h4>VS Code</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="bx bx-game"></div>
+                    <h4>Game Dev</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="projects">
+            <h2 class="section-title"><span class="accent">Projects</span></h2>
+            <div class="section-content">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="bx bx-cube"></div>
+                        <h4>Tower of Hanoi</h4>
+                        <p>C++ implementation of the classic recursive problem — deepened my understanding of algorithms and design.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="bx bx-palette"></div>
+                        <h4>Video Game Blending</h4>
+                        <p>A program exploring visual blending techniques used in game environments.</p>
+                    </div>
+                    <div class="project-card">
+                        <div class="bx bx-terminal"></div>
+                        <h4>C++ Implementation</h4>
+                        <p>Various C++ exercises focusing on efficient solutions and clean code structure.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section class="section" id="contactme">
+        <h2 class="section-title"><span class="accent">Contact Me</span></h2>       
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="bx bx-phone"></div>
+                <h4>Phone Number</h4>
+                <p>(787) 918-1381</p>
+            </div>
+
+            <div class="contact-info">
+                <div class="bx bx-envelope"></div>
+                <h4>Email Address</h4>
+                <a href= "mailto:wengkevin8@gmail.com">wengkevin8@gmail.com</a>
+            </div>
+
+            <div class="contact-info">
+                <div class="bx bx-map"></div>
+                <h4>Location</h4>
+                <p> 67-12, 224th Oakland Gardens, New York</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <a href="#top" class ="back-to-top">   
+        <div class="bx bx-up-arrow-alt"></div>
+            Back to the Top
+    </a>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
