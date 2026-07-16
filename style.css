@@ -60,7 +60,7 @@ body {
 
 .logo {
     font-family: 'Tangerine', cursive;
-    font-size: 2.4px;
+    font-size: 2.4rem;
     font-weight: 700;
     color: var(--text-color);
     text-decoration: none;
@@ -138,17 +138,17 @@ body {
 
 .home-content h1 {
     font-family: 'Tangerine', cursive;
-    font-size: 4.5px;
+    font-size: 4.5rem;
     font-weight: 700;
-    margin-bottom: 1px;
+    margin-bottom: 1rem;
     line-height: 1;
 }
 
 .home-content h3 {
     font-family: 'Tangerine', cursive;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 1.5px;
+    margin-bottom: 1.5rem;
     color: var(--text-muted);
 }
 
@@ -170,11 +170,11 @@ body {
 
 .gradient-btn {
     display: inline-block;
-    padding: 0.85px 2.2px;
+    padding: 0.85rem 2.2rem;
     border-radius: 50px;
     background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
     color: #fff;
-    font-size: 1px;
+    font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -201,7 +201,7 @@ body {
 .section-title {
     font-family: 'Tangerine', cursive;
     text-align: center;
-    font-size: 3.5px;
+    font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 2.5px;
 }
@@ -214,10 +214,10 @@ body {
 
 .section-content p {
     font-family: 'Tangerine', cursive;
-    font-size: 30px;
+    font-size: 30rem;
     color: var(--text-muted);
-    line-height: 1;
-    margin-bottom: 1.2px;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
 }
 
 .section-content h3 {
@@ -255,7 +255,7 @@ body {
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.2px;
+    gap: 1.2rem;
     margin-top: 2.5px;
     width: 100%;
     max-width: 700px;
@@ -267,7 +267,7 @@ body {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 16px;
-    padding: 2px 1px;
+    padding: 2rem 1rem;
     text-align: center;
     transition: transform 0.3s, border-color 0.3s;
 }
@@ -297,10 +297,10 @@ body {
 
 /*Projects*/
 
-.projects-grid {
-    display: flex;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5px;
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1.5rem;
 }
 
 .project-card {
@@ -357,7 +357,7 @@ body {
 .contact-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2px;
+    gap: 2rem;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
@@ -412,7 +412,7 @@ body {
 
 .footer {
     text-align: center;
-    padding: 2px 6%;
+    padding: 2rem 6%;
     background: var(--bg-secondary);
     border-top: 1px solid var(--card-border);
 }
@@ -445,9 +445,9 @@ body {
 
 #darkModeBtn {
     font-family: 'Tangerine', cursive;
-    font-size: 0.8px;
+    font-size: 0.8rem;
     font-weight: 600;
-    padding: 0.45px 1px;
+    padding: 0.45rem 1rem;
     border-radius: 50px;
     border: 1px solid var(--card-border);
     background: var(--card-bg);
@@ -457,7 +457,7 @@ body {
     white-space: nowrap;
     display: flex;
     align-items: center;
-    gap: 0.4px;
+    gap: 0.4rem;
     }
 
 #darkModeBtn:hover {
@@ -553,7 +553,7 @@ body.dark-mode .button:hover {
         margin-bottom: 1px;
     }
     .home-content h1 {
-        font-size: 3px;
+        font-size: 3rem;
     }
 
     .home-content h3 {
