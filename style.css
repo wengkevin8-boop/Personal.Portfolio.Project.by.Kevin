@@ -26,7 +26,7 @@ body {
     font-family: 'Tangerine', cursive;
     background: var(--bg-color);
     color: var(--text-color);
-    font-size: 1px;
+    font-size: 1rem;
     line-height: 1.7;
     overflow-x: hidden;
 }
@@ -83,7 +83,7 @@ body {
 .navbar {
     display: flex;
     list-style: none;
-    gap: 2px;
+    gap: 2rem;
 }
 
 .navbar a {
@@ -146,7 +146,7 @@ body {
 
 .home-content h3 {
     font-family: 'Tangerine', cursive;
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: 400;
     margin-bottom: 1.5rem;
     color: var(--text-muted);
@@ -161,11 +161,11 @@ body {
     background-image: linear-gradient(var(--bg-color), var(--bg-color)), linear-gradient(90deg, var(--accent-start), var(--accent-end));
     background-origin: border-box;
     background-clip: content-box, border-box;
-    margin-bottom: 2px;
+    margin-bottom: 2rem;
 }
 
 .home-buttons {
-    margin-top: 0.5px;
+    margin-top: 0.5rem;
 }
 
 .gradient-btn {
@@ -203,7 +203,7 @@ body {
     text-align: center;
     font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 2.5px;
+    margin-bottom: 2.5rem;
 }
 
 .section-content {
@@ -214,9 +214,9 @@ body {
 
 .section-content p {
     font-family: 'Tangerine', cursive;
-    font-size: 30rem;
+    font-size: 30px;
     color: var(--text-muted);
-    line-height: 1.7;
+    line-height: 1;
     margin-bottom: 1.2rem;
 }
 
@@ -226,14 +226,14 @@ body {
     font-weight: 400;
     color: var(--text-muted);
     line-height: 1;
-    margin-bottom: 1.2px;
+    margin-bottom: 1.2rem;
 }
 
 .about-images {
     display: flex;
     justify-content: center;
-    gap: 1.5px;
-    margin-top: 2px;
+    gap: 1.5rem;
+    margin-top: 2rem;
     flex-wrap: wrap;
 }
 
@@ -256,7 +256,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
-    margin-top: 2.5px;
+    margin-top: 2.5rem;
     width: 100%;
     max-width: 700px;
     margin-left: auto;
@@ -281,7 +281,7 @@ body {
 .skill-card div {
     font-family: 'Tangerine', cursive;
     font-size: 30px;
-    margin-bottom: 0.8px;
+    margin-bottom: 0.8rem;
     background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
     -webkit-background-clip: text;
     background-clip: text;
@@ -297,17 +297,17 @@ body {
 
 /*Projects*/
 
-.projects-grid{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:1.5rem;
+.projects-grid {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
 
 .project-card {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 16px;
-    padding: 2px 1.5px;
+    padding: 2rem 1.5rem;
     text-align: left;
     transition: transform 0.3s, border-color 0.3s;
 }
@@ -320,7 +320,7 @@ body {
 
 .project-card div {
     font-size: 30px;
-    margin-bottom: 1px;
+    margin-bottom: 1rem;
     background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
     -webkit-background-clip: text;
     background-clip: text;
@@ -331,7 +331,7 @@ body {
     font-family: 'Tangerine', cursive;
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 0.6px;
+    margin-bottom: 0.6rem;
     color: var(--text-color);
 }
 
@@ -351,7 +351,7 @@ body {
     font-size: 30px;
     font-weight: 400;
     color: var(--text-muted);
-    margin-bottom: 2.5px;
+    margin-bottom: 2.5rem;
 }
 
 .contact-grid {
@@ -367,7 +367,7 @@ body {
     background: var(--card-bg);
     border: 1px solid var(--card-border);
     border-radius: 16px;
-    padding: 2px;
+    padding: 2rem;
     text-align: center;
     transition: transform 0.3s, border-color 0.3s;
 }
@@ -381,7 +381,7 @@ body {
     font-family: 'Tangerine', cursive;
     font-size: 30px;
     display: block;
-    margin-bottom: 0.8px;
+    margin-bottom: 0.8rem;
     background: linear-gradient(90deg, var(--accent-start), var(--accent-end));
     -webkit-background-clip: text;
     background-clip: text;
@@ -392,7 +392,7 @@ body {
     font-family: 'Tangerine', cursive;
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 0.4px;
+    margin-bottom: 0.4rem;
     color: var(--text-color);
 }
 
@@ -420,7 +420,7 @@ body {
 .back-to-top {
     display: inline-flex;
     align-items: center;
-    gap: 0.5px;
+    gap: 0.5rem;
     font-size: 30px;
     font-weight: 500;
     color: var(--text-muted);
@@ -468,7 +468,7 @@ body {
 }
 
 #darkModeBtn div {
-    font-size: 1px;
+    font-size: 1rem;
 }
 
 body.dark-mode {
@@ -553,7 +553,7 @@ body.dark-mode .button:hover {
         margin-bottom: 1px;
     }
     .home-content h1 {
-        font-size: 3rem;
+        font-size: 3px;
     }
 
     .home-content h3 {
